@@ -23,11 +23,15 @@ fun main(args: Array<String>) {
     val text2 = "Hello World"
     //text2 = "Scheisse"
 
-    //Basistypen
-    val kommaZahl = 2.5
-    println(kommaZahl.javaClass.name)
-    val kommaZahl: Float = 2.5f
 
+
+    val t = 20;
+    val v = "Besipiel"
+    val mehrzeiligerText="""
+        Pfeil
+        bbbb
+        """
+    val textInt = "Zahl: " + text
 
 
 
