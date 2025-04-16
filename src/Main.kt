@@ -11,27 +11,15 @@ fun main(args: Array<String>) {
         // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
        // println("i = $i")
    // }
+    val myAge = 18;
+    if(myAge >= 18) {
+        println("Volljaehrig")
+    } else if(myAge >= 63)  {
+            println("Rentner")
+        } else {
+        println("Jugendlicher/Kind")
+    }
 
-
-    var zahl = 1;
-    var ergebnis = zahl +2;
-    println(ergebnis);
-    println(ergebnis.javaClass.name);
-   // ergebnis += "Hello";
-    var text: String = "Hello World";
-    text ="Scheisse"
-    val text2 = "Hello World"
-    //text2 = "Scheisse"
-
-
-
-    val t = 20;
-    val v = "Besipiel"
-    val mehrzeiligerText="""
-        Pfeil
-        bbbb
-        """
-    val textInt = "Zahl: " + text
 
 
 
